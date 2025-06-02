@@ -12,6 +12,7 @@ public class SmartSchoolApplication extends SpringBootServletInitializer {
         SpringApplication.run(SmartSchoolApplication.class, args);
     }
 
+    /* Added new API */
     @GetMapping
     public String getMessage() {
         return "Smart school application";
